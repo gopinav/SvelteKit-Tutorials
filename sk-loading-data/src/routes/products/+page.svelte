@@ -1,14 +1,12 @@
 <script>
 	export let data;
+	const title = data.title;
 	const products = data.products;
+	const Component = data.Component;
 </script>
 
-<h1>List of products</h1>
+<h1>{title}</h1>
 
 {#each products as product}
-	<div>
-		<h2>{product.title}</h2>
-		<p>{product.description}</p>
-		<hr />
-	</div>
+	<Component {product} />
 {/each}
