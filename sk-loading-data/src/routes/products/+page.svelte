@@ -5,7 +5,7 @@
 	const Component = data.Component;
 </script>
 
-<h1>{title}</h1>
+<h1>{title} for username</h1>
 
 {#each products as product}
 	<Component {product} />
