@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<h1>{product.title}</h1>
+	<h2>{product.title}</h2>
 	<p>{product.description}</p>
 	<hr />
 </div>

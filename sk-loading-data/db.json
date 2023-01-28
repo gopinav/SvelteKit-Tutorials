@@ -18,5 +18,25 @@
 			"price": 2600,
 			"description": "Description 3"
 		}
+	],
+	"featured-products": [
+		{
+			"id": 1,
+			"title": "Featured Product 1",
+			"price": 700,
+			"description": "Description 1"
+		},
+		{
+			"id": 2,
+			"title": "Featured Product 2",
+			"price": 1050,
+			"description": "Description 2"
+		},
+		{
+			"id": 3,
+			"title": "Featured Product 3",
+			"price": 2600,
+			"description": "Description 3"
+		}
 	]
 }
