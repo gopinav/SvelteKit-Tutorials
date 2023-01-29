@@ -1,4 +1,4 @@
-import Product from './Product.svelte';
+import Product from './product.svelte';
 
 export const load = async ({ data }) => {
 	console.log('universal load function called');
