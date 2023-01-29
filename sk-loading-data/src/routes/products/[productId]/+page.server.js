@@ -1,4 +1,4 @@
-export const load = async ({ params }) => {
+export const load = async ({ fetch, params }) => {
 	const { productId } = params;
 	const title = 'Product details';
 	const notification = 'End of season sale! 60% off!';

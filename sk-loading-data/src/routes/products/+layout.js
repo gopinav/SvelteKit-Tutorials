@@ -1,4 +1,4 @@
-export const load = async ({ parent }) => {
+export const load = async ({ fetch, parent }) => {
 	const parentData = await parent();
 	const { username } = parentData;
 	const title = 'Featured products';
