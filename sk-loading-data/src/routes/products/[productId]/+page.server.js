@@ -1,5 +1,4 @@
-export const load = async ({ params, url, route }) => {
-	console.log({ params, url, route: route.id });
+export const load = async ({ params }) => {
 	const { productId } = params;
 	const title = 'Product details';
 	const notification = 'End of season sale! 60% off!';

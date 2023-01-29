@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.title}</title>
+	<title>{$page.data.title || 'Codevolution'}</title>
 </svelte:head>
 
 <p>{$page.data.notification}</p>
