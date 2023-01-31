@@ -1,5 +1,5 @@
 <script>
-	let address;
+	let address = '';
 	export let data;
 	const { addressList } = data;
 </script>
