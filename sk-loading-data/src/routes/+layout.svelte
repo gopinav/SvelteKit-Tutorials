@@ -9,6 +9,8 @@
 	<title>{$page.data.title || 'Codevolution'}</title>
 </svelte:head>
 
-<p>{$page.data.notification}</p>
+{#if $page.data.notification}
+	{$page.data.notification}
+{/if}
 <div>Welcome, {username}</div>
 <slot />
