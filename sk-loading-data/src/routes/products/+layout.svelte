@@ -20,6 +20,7 @@
 	.product-item {
 		display: inline-block;
 		width: 200px;
+		/* height: 100vh; */
 		margin: 10px;
 		border: 1px solid #ccc;
 		padding: 10px;
