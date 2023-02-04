@@ -5,3 +5,6 @@ export const load = async ({ data }) => {
 	const notification = 'End of season sale!';
 	return { ...data, notification, Component: Product };
 };
+
+export const ssr = true;
+export const csr = false;
