@@ -13,3 +13,5 @@ export const load = async ({ fetch, params }) => {
 	const product = await response.json();
 	return { title, notification, product };
 };
+
+export const prerender = 'auto';
